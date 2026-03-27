@@ -12,6 +12,11 @@ function deliverJoke() {
   let compliment = selectVariable(compliments);
   let memory = selectVariable(memories);
   let closing = selectVariable(closings);
+
+  console.log(intro);
+  console.log(compliment);
+  console.log(memory);
+  console.log(closing);
 }
 
 deliverJoke();
